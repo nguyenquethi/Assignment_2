@@ -1,0 +1,54 @@
+<!-- main navigation -->
+<nav class="navbar navbar-expand-lg text-uppercase">
+    <div class="container">
+        <a class="navbar-brand font-weight-bold" href="/home">
+          <img src="Assets/images/coco-low-resolution-color-logo.png" class="img-fluid" width="100px" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <% if (title == "Home") { %>
+            <li class="nav-item active">
+            <% } else { %>
+            <li class="nav-item">
+            <% } %>  
+              <a class="nav-link active px-lg-4 rounded" aria-current="page" href="/home">Home</a>
+            </li>
+  
+            <% if (title == "About") { %>
+            <li class="nav-item active">
+            <% } else { %>
+            <li class="nav-item">
+            <% } %>
+              <a class="nav-link px-lg-4 rounded" href="/about">About Me</a>
+            </li>
+  
+            <% if (title == "Projects") { %>
+            <li class="nav-item active">
+            <% } else { %>
+            <li class="nav-item">
+            <% } %>
+              <a class="nav-link px-lg-4 rounded" href="/projects">Projects</a>
+            </li>
+  
+            <% if (title == "Services") { %>
+            <li class="nav-item active">
+            <% } else { %>
+            <li class="nav-item">
+            <% } %>
+              <a class="nav-link px-lg-4 rounded" href="/services">Services</a>
+            </li>
+  
+            <% if (title == "Contact") { %>
+              <li class="nav-item active">
+              <% } else { %>
+              <li class="nav-item">
+              <% } %>
+                <a class="nav-link px-lg-4 rounded" href="/contact">Contact me</a>
+              </li>
+          </ul>
+        </div>
+    </div>
+  </nav>
