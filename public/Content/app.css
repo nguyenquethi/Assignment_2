@@ -79,6 +79,7 @@ navbar{
 h1{
     font-size: 3rem;
     font-weight: 900;
+    text-align: center;
 }
 .progress{
     background-color: rgb(223, 216, 216);
