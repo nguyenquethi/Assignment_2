@@ -10,25 +10,33 @@
 
             <form class="form" method="POST">
                 <div class="form-group">
-                    <label for="nameTextField">User Name</label>
-                    <input type="text" class="form-control" 
-                    id="nameTextField" 
-                    placeholder="Enter the user name"
+                    <label for="nameTextField">Name</label>
+                    <input type="text" class="form-control"
+                    id="nameTextField"
+                    placeholder="Enter your name"
                     name="name" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="authorTextField">Password</label>
-                    <input type="password" class="form-control" 
-                    id="numberTextField" 
-                    placeholder="Enter the Password"
+                    <label for="authorTextField">Phone Number</label>
+                    <input type="text" class="form-control"
+                    id="authorTextField"
+                    placeholder="Enter the phone number"
                     name="number" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="publishedTextField">Email Address</label>
+                    <input type="text" class="form-control"
+                    id="publishedTextField"
+                    placeholder="Enter your email"
+                    name="email" required>
                 </div>
 
                 <br>
 
                 <button class="btn btn-primary" type="submit">
-                    <i class="fas fa-edit"></i>Login</button>
+                    <i class="fas fa-edit"></i>Submit</button>
 
                     <a href="/book-list" class="btn btn-warning"><i class="fas fa-undo"></i>Cancel</a>
             </form>
